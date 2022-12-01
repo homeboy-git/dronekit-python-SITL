@@ -11,7 +11,7 @@ import time
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 
 # Connect to the Vehicle
-connection_string = 'tcp:127.0.0.1:5760'
+connection_string = 'tcp:127.0.0.1:5762'
 vehicle = connect(connection_string, wait_ready=True)
 
 def arm_and_takeoff(aTargetAltitude):
