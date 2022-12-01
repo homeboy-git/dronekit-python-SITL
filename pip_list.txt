@@ -1,0 +1,3 @@
+pip install dronekit
+pip install dronekit-sitl==3.3.0
+pip install pymavlink==2.4.8
